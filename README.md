@@ -1,4 +1,4 @@
-# test-kubebuilder
+# Custom Cronjob
 // TODO(user): Add simple overview of use/purpose
 
 ## Description
