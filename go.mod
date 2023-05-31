@@ -1,8 +1,14 @@
-module examples.com/m
+module tutorial.kubebuilder.io/project
 
 go 1.20
 
-require sigs.k8s.io/controller-runtime v0.14.4
+require (
+	github.com/onsi/ginkgo/v2 v2.6.0
+	github.com/onsi/gomega v1.24.1
+	k8s.io/apimachinery v0.26.1
+	k8s.io/client-go v0.26.1
+	sigs.k8s.io/controller-runtime v0.14.4
+)
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -12,6 +18,7 @@ require (
 	github.com/evanphx/json-patch/v5 v5.6.0 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
+	github.com/go-logr/zapr v1.2.3 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
 	github.com/go-openapi/jsonreference v0.20.0 // indirect
 	github.com/go-openapi/swag v0.19.14 // indirect
@@ -36,6 +43,9 @@ require (
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
+	go.uber.org/atomic v1.7.0 // indirect
+	go.uber.org/multierr v1.6.0 // indirect
+	go.uber.org/zap v1.24.0 // indirect
 	golang.org/x/net v0.3.1-0.20221206200815-1e63c2f08a10 // indirect
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b // indirect
 	golang.org/x/sys v0.3.0 // indirect
@@ -50,8 +60,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/api v0.26.1 // indirect
 	k8s.io/apiextensions-apiserver v0.26.1 // indirect
-	k8s.io/apimachinery v0.26.1 // indirect
-	k8s.io/client-go v0.26.1 // indirect
 	k8s.io/component-base v0.26.1 // indirect
 	k8s.io/klog/v2 v2.80.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20221012153701-172d655c2280 // indirect

@@ -5,8 +5,8 @@ metadata:
     app.kubernetes.io/name: clusterrole
     app.kubernetes.io/instance: proxy-role
     app.kubernetes.io/component: kube-rbac-proxy
-    app.kubernetes.io/created-by: test-kubebuilder
-    app.kubernetes.io/part-of: test-kubebuilder
+    app.kubernetes.io/created-by: testingcron
+    app.kubernetes.io/part-of: testingcron
     app.kubernetes.io/managed-by: kustomize
   name: proxy-role
 rules:
